@@ -2,7 +2,7 @@
 
 > 基于 Microsoft Agent Framework（MAF）.NET `1.9.0`。Agent Skills 模块当前标记为 `[Experimental]`（诊断 ID `MAAI001`），API 可能在后续版本变更。
 
-本示例演示如何让 Agent **自己编写 Node.js 代码并在隔离的 Docker 容器中执行**，用官方 `pptx` 技能里的 `pptxgenjs` 教程从零生成一份 PowerPoint 演示文稿（`.pptx`）。
+本示例演示如何让 Agent **自己编写 Node.js 代码并在隔离的 Docker 容器中执行**，用 Anthropic 官方 `pptx` 技能里的 `pptxgenjs` 教程从零生成一份 PowerPoint 演示文稿（`.pptx`）。
 
 这是一个"纯 Computer-Use"工作流：Agent 读完技能教程后**现写 `agent.js`、跑、看报错、自我修正**，全部代码都在断网、限资源、非 root 的一次性容器里运行，生成的 `.pptx` 通过卷映射自动落回宿主。
 
