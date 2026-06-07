@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Packages.props" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="src/App/App.csproj" Id="5861b0d2-1417-4b44-9904-18d96a4677d9" />
+  <Project Path="src/ScriptExecutor/ScriptExecutor.csproj" Id="220af9c2-7d3b-49df-a2b9-dbe2ce77b592" />
+</Solution>
